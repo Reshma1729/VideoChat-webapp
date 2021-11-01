@@ -1,0 +1,161 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- <link rel="stylesheet" href="stylesi.css" type="text/css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
+*{
+	font-family: sans-serif;
+}
+.container{
+	width:420px;
+	height: 625px;
+	position: relative;
+	background-position: center;
+	padding: 10px;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height:100vh;
+	background: linear-gradient(rgba(0,0,100,0.8),rgba(32, 32, 189, 0.8),rgba(49, 49, 241, 0.2));
+	background-size:100%;
+}
+form{
+	margin-top: 0px;
+	text-align: center;
+}
+form h2{
+	display:block; 
+	font-size: 18px;
+	width:300px;
+	height:20px;
+	color:#ffffff;
+	padding-left: 63px;
+	margin-right:40px;
+	position:relative;
+} 
+.btn{
+	display:block; 
+	margin:35px 140px;
+	padding: 10px 0;
+	border-radius: 15px;
+	cursor:pointer;
+	align-items: center;
+	border:1px solid black;
+	background-color:black;
+	text-decoration-line:none;
+	color:white;
+}
+input{
+	display:block;
+	width: 310px;
+	height:55px;
+	margin: 18px 57px;
+	border:none; 
+	outline:none;
+	font-size: 17px;
+	border-bottom: 1px solid white;
+	background: transparent;
+	color: white;
+}
+.signin{
+	width: 300px;
+	height:45px;
+	background:linear-gradient(rgba(0,0,100,0.8),rgba(32, 32, 189, 0.8),rgba(22, 22, 160, 0.8),rgba(32, 32, 189, 0.5));;
+	font-size: 18px;
+	color: white;
+	border: 1px solid none;
+	margin:20px 60px;
+	border-radius: 25px;
+	cursor:pointer;
+}
+
+form h1{
+	margin-bottom: 22px;
+	color: white;
+	font-size: 40px;
+}
+::placeholder{
+	color:white;
+}
+.social-menu ul{
+	position:absolute;
+	left:48%;
+	padding-bottom:95px;
+	margin: 0px 19px;
+	transform:translate(-50%,-50%);
+	display:flex;
+  }
+  .social-menu ul li{
+	list-style:none;
+	margin:15px;
+  }
+  .social-menu ul li .fa{
+	font-size:25px;
+	line-height:44px;
+	transition:0.6s;
+	color:#000;
+  }
+  .social-menu ul li a{
+	position:relative;
+	display:block;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background-color: #fff;
+	text-align: center;
+	transition: 0.6s;  
+	box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+  }
+  .social-menu ul li a:hover{
+	transform:translate(0,-18px);
+  }
+  .social-menu ul li:nth-child(1) a:hover{
+	background-color: #184bb8;
+  }
+  .social-menu ul li:nth-child(2) a:hover{
+	background-color:#ee247f;
+  }
+  .social-menu ul li:nth-child(3) a:hover{
+	background-color: #0d90f3;
+  }
+  .social-menu ul li:nth-child(4) a:hover{
+	background-color:  #e41704;
+  }
+</style>
+</head>
+<body>
+	<div class="container-fluid">
+	 </div>
+    <form>
+    <h1><b>Register</b></h1>
+    <div class="container well">	
+    <input type="text" name="" placeholder="Username" required="">
+    <input type="email" name="" placeholder="Email" required="">
+    <input type="password" name="" placeholder="Password" required="">
+    <input type="password" name="" placeholder="Confirm Password" required="">
+    <button type="button" class="signin">Register</button>
+    <h2>Already have an account?</h2> 
+    <a href="http://127.0.0.1:5500/Page/login.html" target="_blank" class="btn">Login</a>
+    </div>
+    <div class="social-menu">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+        </ul>
+     </div>
+    </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+ 
+</body></html>
