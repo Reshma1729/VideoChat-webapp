@@ -1,3 +1,4 @@
+// Script.js file
 const socket = io("/");
 const videoGrid = document.getElementById("video-grid");
 const myVideo = document.createElement("video");
