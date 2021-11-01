@@ -44,14 +44,15 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: var(--main-dark);
+  background-color:white;
 }
 
 video {
-  height: 300px;
+  height: 280px;
   border-radius: 1rem;
   margin: 0.5rem;
-  width: 400px;
+  width: 350px;
+  margin-right:180px;
   object-fit: cover;
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg);
@@ -94,6 +95,36 @@ video {
   flex-direction: column;
   flex: 0.3;
   background-color: #242f41;
+}
+h2{
+  color:white;
+  text-align: center;
+  padding:20px;
+}
+.container {
+  width:200px;
+  border: 1px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 8px 25px;
+  margin: 10px 90px;
+}
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+  text-align:right;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+  margin-bottom:7px;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+  margin-bottom:7px;
 }
 
 .main__chat_window {

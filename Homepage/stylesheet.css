@@ -13,7 +13,7 @@
     background-color: transparent;
 }
  .logo{
-    margin-top:10px;
+    margin-top:15px;
     color:rgba(255, 255, 255, 0.979);
     display:flex;
     font-family: Garamond, serif;
@@ -32,6 +32,7 @@
     width:100%;
     display:inline-block;
     margin-right:50px;
+    margin-left:30px;
 }
 
 nav{
@@ -46,7 +47,7 @@ nav ul{
 nav ul li{
     display:inline-block;
     margin-right: 90px;
-    margin-top:40px;
+    margin-top:60px;
     border:2px solid none;
     padding: 14px;
     border-radius: 4px;
@@ -87,15 +88,16 @@ a{
     border-radius:30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    font-size:50px;
 }
 .head2{ 
     margin-top:280px;
     margin-bottom:150px;
-    padding:30px;
+    padding:50px;
     float: left;
     font-family: cursive;
     margin-left:160px;
-
+    font-size:50px;
 } 
 .img2{
     margin-top:250px;
@@ -105,6 +107,7 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-bottom:240px;
+    font-size:50px;
 }
 
 .head3{
@@ -114,6 +117,7 @@ a{
       font-family: cursive;
       margin-right:160px;
       margin-bottom:180px;
+      font-size:50px;
 }
  .msg_group{
     margin-top:0px;
@@ -122,9 +126,9 @@ a{
   }
   .polaroid {
     box-shadow:  0 4px 4px 4px rgba(0, 0, 0, 0.2), 0 6px 6px 4px rgba(0, 0, 0, 0.19);
-    height:500px;
-    width:280px;
-    margin-right:220px;
+    height:470px;
+    width:270px;
+    margin-right:230px;
     border: 1px solid #ccc;
     float: left;
     padding:20px;
@@ -132,20 +136,19 @@ a{
   }
   .msg-box{
     align-items: center;
-    margin-left:5px;
 } 
  .container{
       padding:18px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       text-align: center;
-      height:250px;
-      width:150px;
-      font-size:30px;
-      margin-top:30px;
-  }
-
+      height:220px;
+      width:205px;
+      font-size: 25px;
+      margin-top:25px;
+      margin-left:9px;
+ }
 footer{
-    height:240px;
+    height:230px;
     width:100%;
     font:bolder;
     text-align:center;
@@ -158,7 +161,7 @@ footer{
 .myfooter{
     color:black;
     display:inline-block;
-    font-size: 12px;
+    font-size: 20px;
     font-family: sans-serif;
     margin-bottom:20px;
 }
@@ -166,19 +169,15 @@ footer{
     display:inline-block;
     list-style: none;
     margin-left:10px;
-    cursor: pointer;
 }
 .myfooter ul li{
+    cursor: pointer;
     display:inline-block;
     margin-right: 30px;
-    margin-bottom:10px;
-    cursor: pointer;
 }
 .myfooter ul li a{
-    font-size: 20px;
     cursor: pointer;
-    text-decoration: none;
-    font:bolder;
+    font-size: 20px;
     color: black;
     font-family: sans-serif;
 }
@@ -186,11 +185,11 @@ h5{
     color:rgb(70, 3, 90);
     display:inline-block;
     font-family: sans-serif;
-    text-shadow: 0 4px 8px 0 rgba(255, 246, 246, 0.452), 0 6px 20px 0 rgba(255, 234, 234, 0.644);
+    text-shadow: 0 4px 8px 0 rgba(255, 246, 246, 0.568), 0 6px 20px 0 rgba(255, 234, 234, 0.644);
     text-align: center;
     margin-left:680px;
-    padding:40px;
-    font-size:50px;
+    padding:50px;
+    font-size:28px;
 }
 .social-menu ul{
 	position:absolute;
