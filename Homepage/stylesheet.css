@@ -90,7 +90,6 @@ a{
     border-radius:30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
-    font-size:50px;
 }
 .head2{ 
     margin-top:280px;
@@ -99,7 +98,6 @@ a{
     float: left;
     font-family: cursive;
     margin-left:160px;
-    font-size:50px;
 } 
 .img2{
     margin-top:250px;
@@ -109,7 +107,6 @@ a{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-bottom:240px;
-    font-size:50px;
 }
 
 .head3{
@@ -119,7 +116,6 @@ a{
       font-family: cursive;
       margin-right:160px;
       margin-bottom:180px;
-      font-size:50px;
 }
  .msg_group{
     margin-top:0px;
