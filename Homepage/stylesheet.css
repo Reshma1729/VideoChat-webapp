@@ -20,9 +20,10 @@
     display:flex;
     font-family: Garamond, serif;
     align-items:center;
-    height:120px;
+    height:140px;
     width:100%;
-    font-size: 40px;
+    font-size: 80px;
+    margin: 5px;
     padding-left:820px;
     background :rgba(123, 2, 160, 0.767);
     }
@@ -50,7 +51,7 @@ nav ul li{
     display:inline-block;
     margin-right: 90px;
     margin-top:60px;
-    border:2px solid none;
+    border:8px solid none;
     padding: 14px;
     border-radius: 4px;
     font-size: 22px;
@@ -88,7 +89,7 @@ a{
     margin-right:150px;
     float:right;
     border-radius:30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
 }
 .head2{ 
@@ -98,6 +99,7 @@ a{
     float: left;
     font-family: cursive;
     margin-left:160px;
+    font-size: larger;
 } 
 .img2{
     margin-top:250px;
@@ -116,6 +118,7 @@ a{
       font-family: cursive;
       margin-right:160px;
       margin-bottom:180px;
+      font-size: larger;
 }
  .msg_group{
     margin-top:0px;
@@ -185,8 +188,9 @@ h5{
     font-family: sans-serif;
     text-shadow: 0 4px 8px 0 rgba(255, 246, 246, 0.568), 0 6px 20px 0 rgba(255, 234, 234, 0.644);
     text-align: center;
-    margin-left:680px;
-    padding:50px;
+    margin-top :50px;
+    margin-left:740px;
+    padding:70px;
     font-size:28px;
 }
 .social-menu ul{
